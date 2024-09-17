@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="logic.js"></script>
+</head>
+<body>
+    <div class="container"> 
+         <div class="sidebar">
+        
+    <nav> 
+        <ul>
+           
+       <li><a href="/">Home</li></a>
+       <li><a href="/intro.html">My Intro</li></a>
+        <li><a href="/about.html">About Me</li></a>
+        <li><a href="/contact.html">Contact Me</li></a>
+        <li><a href="/mywork.html">My Work</li></a>
+        
+        </ul>
+    </nav>
+    </div>
+    <div class="main">
+      <div class="hamburger">
+        <img class="lines" src="lines.png" alt="" width="23px"align=left>
+         <img class="cross" src="cross.png" alt="" width="23px" align=left>
+     </div>
+  <div class="contactform">
+    <h1 style="color: darkslateblue;">Contact me for work/general Enquiries</h1>
+    <br>
+        <form>
+            <div class="mb-3">
+              <label for="clientemail" class="form-label" style="color: darkslategrey;">Name</label>
+              <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="clientemail" class="form-label" style="color: darkslategrey;">Email address</label>
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="clientphone" class="form-label " style="color: darkslategrey;">phone</label>
+              <input type="phone" class="form-control" id="clientphone">
+            </div>
+
+            <div class="mb-3">
+              <label for="clientemail" class="form-label" style="color: darkslategrey;">Enquiry</label>
+              <input type="enquiry" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3"id="form-check">
+              <input type="checkbox" class="form-check-input" id="isclient">
+              <label class="form-check-label" for="isclient" style="color: darkblue;">I Want you to work on a project with me</label>
+            </div>
+        
+            <button type="submit" class="btn btn-sn">Submit</button>
+          </form>
+
+        </div>
+    </div> 
+    </div>
+</body>
+</html>
